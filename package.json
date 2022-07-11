@@ -1,0 +1,19 @@
+{
+  "name": "jsfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "ip": "^1.1.8",
+    "kafkajs": "^2.0.2",
+    "node-rdkafka": "^2.13.0"
+  },
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
